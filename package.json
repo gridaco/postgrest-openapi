@@ -1,0 +1,30 @@
+{
+  "name": "postgrest-openapi",
+  "version": "0.0.1",
+  "description": "postgREST OpenAPI parser",
+  "main": "dist/index.js",
+  "private": false,
+  "scripts": {
+    "build": "tsup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "postgrest",
+    "postgres",
+    "openapi",
+    "swagger",
+    "parser",
+    "db",
+    "schema",
+    "visualization"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": "softmarshmallow",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.3"
+  }
+}
